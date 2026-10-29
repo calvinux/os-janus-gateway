@@ -1,0 +1,20 @@
+general: {
+	json = "indented"
+	base_path = "/voice"
+	http = true
+	port = 14223
+	https = false
+}
+
+admin: {
+	admin_base_path = "/voiceAdmin"
+	admin_http = true
+	admin_port = 14225
+	admin_https = false
+}
+
+cors: {
+}
+
+certificates: {
+}

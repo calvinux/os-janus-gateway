@@ -1,0 +1,9 @@
+general: {
+	enabled = false
+	json = "indented"
+	address = "ipc:///tmp/janus.ipc"
+}
+
+admin: {
+	admin_enabled = false
+}
