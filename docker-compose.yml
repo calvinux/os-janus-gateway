@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  os-janus-gateway:
+    image: calvinux/os-janus-gateway:latest
+    container_name: os-janus-gateway
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./janus.jcfg:/opt/janus/etc/janus/janus.jcfg:ro
+      - ./janus.transport.http.jcfg:/opt/janus/etc/janus/janus.transport.http.jcfg:ro
+      - ./janus.transport.nanomsg.jcfg:/opt/janus/etc/janus/janus.transport.nanomsg.jcfg:ro
+      - ./janus.transport.websockets.jcfg:/opt/janus/etc/janus/janus.transport.websockets.jcfg:ro
