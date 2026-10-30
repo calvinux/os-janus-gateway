@@ -65,7 +65,7 @@ Your local configuration files (`.jcfg`) will automatically bind-mount into the 
 ## Docker Hub
 
 The official image is hosted and updated on Docker Hub:
-👉 [calvinux/os-janus-gateway](https://docker.com)
+👉 [calvinux/os-janus-gateway](https://hub.docker.com/r/calvinux/os-janus-gateway)
 
 To pull the latest image directly from the registry:
 
